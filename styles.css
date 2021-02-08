@@ -1,0 +1,82 @@
+      body,#body_style {margin: 0; padding: 0; background: #f6f6f6; font-size: 14px; color: #313a42;}
+      a {color: #09c;}
+      a img {border: none; text-decoration: none;}
+      table, table td {border-collapse: collapse;}
+      td, h1, h2, h3 {font-family: Arial, Helvetica, sans-serif; color: #313a42;}
+      h1, h2, h3, h4 {color: #313a42 !important; font-weight: normal; line-height: 1.2;}
+      h1 {font-size: 24px;}
+      h2 {font-size: 18px;}
+      h3 {font-size: 16px;}
+      p {margin: 0 0 1.6em 0;}
+      
+      .preheader {background-color: #289b99; border-bottom: 2px solid #238a88;}
+      .preheaderContent,.webversion,.webversion a {color: white; font-size: 10px;}
+      .preheaderContent{width: 440px;}
+      .preheaderContent,.webversion {padding: 5px 10px;}
+      .webversion {width: 200px; text-align: right;}
+      .webversion a {text-decoration: underline;}
+      .webversion,.webversion a {color: #ffffff; font-size: 10px;}
+      
+      .topHeader {background: #ffffff;}
+      
+      .logoContainer {padding: 10px 0px; width: 320px;}
+      .logoContainer a {color: #ffffff;}
+      
+      .whitespace {font-family: 0px; line-height: 0px;}
+      
+      .featuredImage img{display: block;}
+      .featuredBackground {background-color: #ffffff;}
+      
+      .button {padding: 10px 10px 10px 10px; text-align: center; background-color: #5e6867}
+      .button a {color: #ffffff; text-decoration: none; display: block; font-size: 13px;}
+      
+      .sectionMainTitle{font-family: Tahoma, sans-serif; font-size: 14px; font-weight: bold; padding: 0px 0px 5px 0;}
+      
+      .sectionArticleTitle, .sectionMainTitle {color: #289b99;}
+      .sectionArticleTitle {font-size: 12px; font-weight: bold; padding: 10px 5px 0px 5px;}
+      .sectionArticleContent {font-size: 10px; line-height: 12px; padding: 0px 5px 10px 5px;}
+      .sectionArticleImage {padding: 0px 0px 0px 0px;}
+      .sectionArticleImage img {height: auto; -ms-interpolation-mode: bicubic; display: block;}
+      
+      .footer {background-color: #238a88;}
+      .footNotes {padding: 0px 20px 0px 20px;}
+      .footNotes a {color: #ffffff; font-size: 14px;}
+      
+      .card {background-color: #ffffff;}
+      
+      @media only screen and (max-width: 480px) {
+        body,table,td,p,a,li,blockquote {-webkit-text-size-adjust:none !important;}
+          body table {width: 100% !important;}
+          body .featuredImage img { width: 100%; height: auto !important; max-width: 100% !important;}
+          body .webversion {display: none; font-size: 0; max-height: 0; line-height: 0;}
+          body .logoContainer {text-align: center;}
+          body .sectionArticleTitle, body .sectionArticleContent {text-align: center; padding:0 5px 10px 5px;}
+          body .sectionMainTitle, body .sectionMainContent {text-align: center;}
+          body .buttonContainer {padding: 0px 20px 0px 20px;}
+          body .column {float: left; width: 100%; margin-bottom: 30px;}
+          body .card {padding: 20px 0px;}
+        }
+
+        .topnav {
+            background-color: #333;
+            overflow: hidden;
+          }
+          
+          .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+          }
+          
+          .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+          }
+          
+          .topnav a.active {
+            background-color: #4CAF50;
+            color: white;
+          }
